@@ -14,7 +14,7 @@ if(screen.width >= 500){
      console.log("imprimiedo")
 }if(screen.width>300 && screen.width<399){
     nombre.innerHTML == ""
-    for(var i=0;i<180;i++){
+    for(var i=0;i<190;i++){
         nombre.innerHTML += (" Dan Levi Torres Morales ");
      }
      console.log("imprimiedo")
