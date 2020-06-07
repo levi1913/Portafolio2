@@ -377,4 +377,8 @@
   .contacto .container {
     border: none;
   }
+
+  .soci_conta a {
+    font-size: 5px;
+  }
 }
