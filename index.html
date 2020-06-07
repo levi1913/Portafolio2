@@ -254,6 +254,7 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script>
         AOS.init({
@@ -264,10 +265,14 @@
             max: 25,
             speed: 400
         });
-        var scroll = new SmoothScroll('a[href*="#"]',{
-            speed: 500,
-            speedAsDuration: true,
-            
+   
+        SmoothScroll.init({
+            selector: '[data-scroll]',
+            selectorHeader: null,
+            speed:2000,
+            easing: 'easeInOutCubic',
+            offset:200,
+            callback: function(anchor,toggle){}
         });
        
       </script>
