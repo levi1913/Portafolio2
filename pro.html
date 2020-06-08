@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/paquetes.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <title>levitorres</title>
+</head>
+<body>
+
+    <section>
+        
+        <h1>Paquete Pro</h1>
+         <!-- Especificación -->
+         <div class="especificacion">
+            <p>El paquete business esta pensado para crear un ambiente comodo para los usuarios,
+                en donde sea agradable navegar con numerosos efectos en imagenes, texto y la estructura misma con información precisa. Con una 
+                distribución ideal para que ninguna área del sitio web se sienta apretada y todo esto 
+                a un precio ideal.
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="aous" data-aos="zoom-in">
+                        <div class="aous" data-aos="zoom-in">
+                            <div class="paquetes pros">
+                                <h1>Pro</h1><br>
+                                <i class="fas fa-user-tie fa-5x"></i><br>
+                                <span class="precio"><small>Desde</small>$120<small>(p/hora)</small></span>
+                                <ul class="contenido">
+                                    <li><strong>Incluye</strong></li>
+                                    <li>"Business" incluido</li>
+                                    <li>Diseñador Gráfico</li>
+                                    <li>Sistemas Gestores</li>
+                                    <li>Páginas necesarias</li>
+                                    
+                                </ul>
+                                <small>Precio sugeto a cambios</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="aous" data-aos="zoom-in">
+                        <div class="info">
+                            <h1>Caracterísiticas</h1>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h1>General</h1>
+                                        <ul>
+                                            <li>Incluye todo lo de paquetes menores</li>
+                                            <li>Base de datos (De ser necesaria)</li>
+                                            <li>Tendrá las páginas necesarias</li>
+                                            <li>Hasta 10 secciones por página</li>
+                                            <li>Programación especifica (Back-end)</li>
+                                            <li>Diseño responsivo</li>
+                                            <li>Incluye trabajo de Diseñador Gráfico</li>
+                                            <li>Gestor de cuentas (Si es necesario)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h1>Herramientas</h1>
+                                        <ul>
+                                            <li>HTML 5</li>
+                                            <li>CSS 3</li>
+                                            <li>Javascript</li>
+                                            <li>PHP o NodeJs</li>
+                                            <li>MySql</li>
+                                            <li>Frameworks</li>
+                                            <li>Imagenes (Del cliente o diseñador)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h1>Trabajo</h1>
+                                        <ul>
+                                            <li>100 horas de trabajo(Promedio)</li>
+                                            <li>Juntas de trabajo que sean necesarias</li>
+                                            <li>1 cambio mayor (Front-end)</li>
+                                            <li>1 cambio mayor (Back-end)</li>
+                                            <li>5 cambios menores (Colores e imagenes)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h1>Escalavilidad</h1>
+                                        <ul>
+                                            <li>Mantenimiento por 8 meses</li>
+                                            <li>Facilidad de inclusión de nuevos modulos</li>
+                                            <li>Contratación de Mercadologo</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+       
+    </section>
+
+
+
+</body>
+
+<script src="js/generador.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/vanilla-tilt.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script>
+    AOS.init({
+        duration: 2000
+    });
+
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 25,
+        speed: 400
+    });
+
+    SmoothScroll.init({
+        selector: '[data-scroll]',
+        selectorHeader: null,
+        speed:2000,
+        easing: 'easeInOutCubic',
+        offset:200,
+        callback: function(anchor,toggle){}
+    });
+   
+  </script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

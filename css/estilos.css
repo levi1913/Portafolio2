@@ -258,6 +258,144 @@
   margin-left: 0;
 }
 
+/* precios */
+.precios {
+  height: 700px;
+  width: 100%;
+  background: #262626;
+  color: #fff;
+  text-align: center;
+}
+.precios .margen {
+  width: all;
+  height: auto;
+  border-top: solid 1px #fff;
+  border-bottom: solid 1px #fff;
+  margin-bottom: 20px;
+}
+.precios .paquete {
+  height: 500px;
+  width: 100%;
+  border: solid 1px #fff;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: all 700ms;
+}
+.precios .paquete small {
+  font-size: 13px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.precios .paquete button {
+  background: #262626;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  color: #fff !important;
+}
+.precios .paquete a {
+  color: #fff;
+  height: all;
+  width: all;
+}
+.precios .basico, .precios .medio {
+  width: 90%;
+  height: 480px;
+  text-align: center;
+}
+.precios .basico button, .precios .medio button {
+  background: #262626;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  transition: all 700ms;
+}
+.precios .basico {
+  border: solid 1px #17bb25;
+  opacity: 0.9;
+  margin-left: 13px;
+}
+.precios .basico button {
+  border: solid 1px #17bb25 !important;
+}
+.precios .pro {
+  border: solid 1px #2e4dd8;
+}
+.precios .pro button {
+  border: solid 1px #2e4dd8;
+}
+.precios .medio {
+  border: solid 1px #ca2525;
+  opacity: 0.9;
+  margin-left: 25px;
+}
+.precios .medio button {
+  border: solid 1px #ca2525;
+}
+.precios span {
+  font-size: 40px;
+}
+.precios ul {
+  list-style: none;
+}
+.precios li {
+  line-height: 30px;
+  font-size: 18px;
+}
+.precios li strong {
+  font-size: 30px;
+  line-height: 60px;
+}
+.precios .basico:hover, .precios .medio:hover {
+  height: 500px;
+  width: 100%;
+  margin-left: 0;
+}
+.precios .paquete:hover {
+  background: #fff;
+  border-width: 2px;
+}
+.precios .paquete:hover button {
+  background: #262626;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+}
+.precios .basico:hover {
+  color: #17bb25;
+}
+.precios .basico:hover button {
+  background: #fff;
+  border: solid 1px #17bb25;
+  color: #17bb25 !important;
+}
+.precios .basico:hover button a {
+  color: #17bb25;
+}
+.precios .medio:hover {
+  color: #ca2525;
+}
+.precios .medio:hover button {
+  background: #fff;
+  border: solid 1px #ca2525;
+  color: #ca2525 !important;
+}
+.precios .medio:hover button a {
+  color: #ca2525;
+}
+.precios .pro:hover {
+  color: #2e4dd8;
+}
+.precios .pro:hover button {
+  background: #fff;
+  border: solid 1px #2e4dd8;
+  color: #2e4dd8 !important;
+}
+.precios .pro:hover button a {
+  color: #2e4dd8;
+}
+
 /* Box */
 .box {
   position: relative;
@@ -380,6 +518,10 @@
 
   .soci_conta a {
     font-size: 12px;
+  }
+
+  .precios {
+    height: auto;
   }
 }
 @media (max-width: 400px) {

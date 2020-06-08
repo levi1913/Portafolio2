@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin:0;
+    background: #262626;
+}
+
+section{
+    width: all;
+    height: 100vh;
+    padding: 30px;
+    padding-top: 5px;
+    h1{
+        color: #fff;
+        text-align: center;
+        border-bottom:solid 1px #fff;
+        line-height: 60px;
+        transition: all 700ms;
+    }
+   
+}
+.paquetes{
+   
+    width: 100%;
+    border: solid 1px #fff;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    transition: all 800ms;
+    color: #fff;
+    small{
+      font-size: 13px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    span{
+        font-size: 40px;
+      }
+      ul{
+        list-style: none;
+      }
+      li{
+        line-height: 30px;
+        font-size: 18px;
+        strong{
+          font-size: 30px;
+          line-height: 60px;
+        }
+      } 
+}
+.paquetes:hover{
+    
+    border-width: 2px;
+  
+}
+.basicos{
+    width: 100%;
+    height: 470px;
+    text-align: center;  
+    
+}
+.basicos{
+    border: solid 1px rgb(23, 187, 37);
+    opacity: .9;
+    margin-left: 13px;
+}
+
+.basicos:hover{
+    color:rgb(23, 187, 37);
+    h1{
+        color:rgb(23, 187, 37);
+        border-bottom:solid 1px rgb(23, 187, 37);
+    }
+   
+}
+.medios{
+    width: 100%;
+    text-align: center;   
+    height: 520px;
+}
+.medios{
+    border: solid 1px rgb(202, 37, 37);
+    margin-left: 13px;
+}
+
+.medios:hover{
+    color:rgb(202, 37, 37);
+    border-bottom:solid 1px rgb(202, 37, 37) !important;
+    h1{
+        color:rgb(202, 37, 37);
+        border-bottom:solid 1px rgb(202, 37, 37);
+    }
+   
+}
+.pros{
+    width: 100%;
+    text-align: center;   
+    height: 590px;
+}
+.pros{
+    border: solid 1px rgb(46, 77, 216);
+    margin-left: 13px;
+}
+
+.pros:hover{
+    color:rgb(46, 77, 216);
+    border-bottom:solid 1px rgb(46, 77, 216)!important;
+    h1{
+        color:rgb(46, 77, 216);
+        border-bottom:solid 1px rgb(46, 77, 216);
+    }
+   
+}
+
+
+.info{
+    border: solid 1px #fff;
+    border-radius: 50px;
+    width: all;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    ul{
+        li{
+            text-align: justify;
+        }
+    }
+   
+}
+.especificacion{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+}
