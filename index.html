@@ -289,11 +289,11 @@
                     <div class="hoja">
                         <form action="enviar.php" method="POST" onsubmit="return lleno();">
                             <h2>Contactame</h2>
-                            <input type="text" id="nombre" placeholder="Nombre"><br>
-                            <input type="text" id="asunto" placeholder="Asunto"><br>
-                            <input type="email" id="email" placeholder="Email"><br>
-                            <input type="number" id="telefono" placeholder="Telefono"><br>
-                            <textarea name="mensaje" placeholder="Escribe aquí tu mensaje..." id="mensaje"></textarea><br>
+                            <input type="text"  name="nombre" id="nombre" placeholder="Nombre"><br>
+                            <input type="text" name="asunto" id="asunto" placeholder="Asunto"><br>
+                            <input type="email" name="email" id="email" placeholder="Email"><br>
+                            <input type="number" name="telefono" id="telefono" placeholder="Telefono"><br>
+                            <textarea name="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje..." id="mensaje"></textarea><br>
                             <input type="submit" value="Enviar" class="button">    
                         </form>
                       
@@ -316,7 +316,7 @@
     </section>
     
 
-    
+    <script src="js/funciones.js"></script>
     <script src="js/generador.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
