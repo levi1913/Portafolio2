@@ -493,6 +493,9 @@
 }
 /* Media querys */
 @media (max-width: 500px) {
+  .navbar{
+    height: 100px !important;
+  } 
   .nombre {
     background-size: 500px 500px !important;
   }
