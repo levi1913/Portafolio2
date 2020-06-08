@@ -132,3 +132,13 @@ section h1 {
   color: #fff;
   text-align: center;
 }
+
+@media (max-width: 500px) {
+  .info h1 {
+    font-size: 20px !important;
+  }
+
+  .paquetes {
+    margin-left: 0;
+  }
+}
