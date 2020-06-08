@@ -529,6 +529,10 @@
     margin-left: 100px !important;
   }
 
+  .soci_conta:hover {
+    margin-left: 0 !important;
+  }
+
   .soci_conta a {
     font-size: 10px;
   }
