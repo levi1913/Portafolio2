@@ -221,7 +221,6 @@
 .contacto .sociales {
   width: 80%;
   height: auto;
-  max-height: 10px;
   padding-top: 60px;
   margin: auto;
 }
@@ -508,6 +507,43 @@
   }
 }
 /* Media querys */
+@media (max-width: 1270px) {
+  #encabezado {
+    height: auto;
+  }
+}
+@media (max-width: 1000px) {
+  #encabezado {
+    height: auto;
+  }
+
+  .informacion {
+    height: auto;
+  }
+
+  .precios {
+    height: auto;
+  }
+
+  .proyectos {
+    height: auto;
+  }
+
+  .habilidades {
+    height: auto;
+  }
+
+  .contacto {
+    height: auto;
+  }
+  .contacto .sociales {
+    width: 70%;
+  }
+
+  .pie {
+    height: auto;
+  }
+}
 @media (max-width: 500px) {
   .nombre {
     background-size: 500px 500px !important;
