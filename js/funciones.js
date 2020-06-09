@@ -6,52 +6,42 @@ function lleno(){
     var mensaje = document.getElementById("mensaje").value;
 
     if(nombre===""){
-        document.getElementById("nombre").style.borderBottomColor ="red";
-        document.getElementById("nombre").style.borderRightColor ="red";
+        document.getElementById("nombre").style.border ="red";
         alert("Debe indicar su nombre");
         return false;
     }else{
-        document.getElementById("nombre").style.borderBottomColor ="gray";
-        document.getElementById("nombre").style.borderRightColor ="gray";
-    } 
+        document.getElementById("nombre").style.border ="#262626";
+       
 
     if(asunto===""){
-        document.getElementById("asunto").style.borderBottomColor ="red";
-        document.getElementById("asunto").style.borderRightColor ="red";
+        document.getElementById("asunto").style.border ="red";
         alert("Debe indicar un asunto");
         return false;
     }else{
-        document.getElementById("asunto").style.borderBottomColor ="gray";
-        document.getElementById("asunto").style.borderRightColor ="gray";
+        document.getElementById("asunto").style.border ="#262626";
     }
     
     if(email===""){
-        document.getElementById("email").style.borderBottomColor ="red";
-        document.getElementById("email").style.borderRightColor ="red";
+        document.getElementById("email").style.border ="red";
         alert("Debe indicar su email");
         return false;
     }else{
-        document.getElementById("email").style.borderBottomColor ="gray";
-        document.getElementById("email").style.borderRightColor ="gray";
+        document.getElementById("email").style.border ="#262626";
     }
     
     if(telefono===""){
-        document.getElementById("telefono").style.borderBottomColor ="red";
-        document.getElementById("telefono").style.borderRightColor ="red";
+        document.getElementById("telefono").style.border ="red";
         alert("Debe indicar su telefono");
         return false;
     }else{
-        document.getElementById("telefono").style.borderBottomColor ="gray";
-        document.getElementById("telefono").style.borderRightColor ="gray";
+        document.getElementById("telefono").style.border ="#262626";
     }
     
     if(mensaje===""){
-        document.getElementById("mensaje").style.borderBottomColor ="red";
-        document.getElementById("mensaje").style.borderRightColor ="red";
+        document.getElementById("mensaje").style.border ="red";
         alert("Debe indicar su mensaje");
         return false;
     }else{
-        document.getElementById("mensaje").style.borderBottomColor ="gray";
-        document.getElementById("mensaje").style.borderRightColor ="gray";
+        document.getElementById("mensaje").style.border ="#262626";
     }
 }
