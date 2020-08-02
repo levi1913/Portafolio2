@@ -259,7 +259,7 @@
 
 /* precios */
 .precios {
-  height: 700px;
+  height: auto;
   width: 100%;
   background: #262626;
   color: #fff;
@@ -297,6 +297,28 @@
   color: #fff;
   height: all;
   width: all;
+}
+.precios .menus {
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 1px #bb4b17;
+}
+.precios .menus div {
+  margin-left: 50px;
+}
+.precios .menus button {
+  background: #262626;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  transition: all 700ms;
+  border: solid 1px #bb4b17 !important;
 }
 .precios .basico, .precios .medio {
   width: 90%;
@@ -360,6 +382,17 @@
   border-radius: 5px;
   width: 150px;
   height: 50px;
+}
+.precios .menus:hover {
+  color: #bb4b17;
+}
+.precios .menus:hover button {
+  background: #fff;
+  border: solid 1px #bb4b17;
+  color: #bb4b17 !important;
+}
+.precios .menus:hover button a {
+  color: #bb4b17;
 }
 .precios .basico:hover {
   color: #17bb25;
@@ -543,6 +576,15 @@
   .pie {
     height: auto;
   }
+
+  .menus {
+    height: auto !important;
+    width: 100% !important;
+    display: block !important;
+  }
+  .menus div {
+    margin-left: 0 !important;
+  }
 }
 @media (max-width: 500px) {
   .nombre {
@@ -604,6 +646,15 @@
   .pie {
     height: auto;
   }
+
+  .menus {
+    height: auto !important;
+    width: 100% !important;
+    display: block !important;
+  }
+  .menus div {
+    margin-left: 0 !important;
+  }
 }
 @media (max-width: 400px) {
   .soci_conta {
@@ -616,5 +667,10 @@
 
   .soci_conta a {
     font-size: 10px;
+  }
+
+  .menus {
+    height: auto;
+    width: 100%;
   }
 }

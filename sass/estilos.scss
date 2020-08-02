@@ -276,7 +276,7 @@
 
 /* precios */
 .precios{
-  height: 700px;
+  height: auto;
   width: 100%;
   background: #262626;
   color: #fff;
@@ -317,6 +317,28 @@
   
   }
 
+  .menus{
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+    margin-bottom: 30px;
+    border: solid 1px rgb(187, 75, 23);
+    div{
+      margin-left: 50px;
+    }
+    button{
+      background: #262626;
+      border-radius: 5px;
+      width: 150px;
+      height: 30px;
+      transition: all 700ms;
+      border: solid 1px rgb(187, 75, 23)!important;
+    }
+  }
   .basico,.medio{
     width: 90%;
     height: 480px;
@@ -379,6 +401,17 @@
       border-radius: 5px;
       width: 150px;
       height: 50px;
+    }
+  }
+  .menus:hover{
+    color:rgb(187, 75, 23);
+    button{
+      background: #fff;
+      border: solid 1px rgb(187, 75, 23);
+      color: rgb(187, 75, 23) !important;
+      a{
+        color: rgb(187, 75, 23);
+      }
     }
   }
   .basico:hover{
@@ -560,6 +593,15 @@
   .pie{
     height: auto;
   }
+  .menus{
+    height: auto !important;
+    width: 100% !important;
+    display: block !important;
+    div{
+      margin-left: 0 !important;
+    }
+   
+  }
 }
 @media (max-width: 500px) {
 
@@ -614,6 +656,15 @@
   .pie{
     height: auto;
   }
+  .menus{
+    height: auto !important;
+    width: 100% !important;
+    display: block !important;
+    div{
+      margin-left: 0 !important;
+    }
+   
+  }
 }
 @media(max-width:400px){
  
@@ -622,8 +673,12 @@
   }
   .soci_conta:hover{
     margin-left: 0 !important;
-}
+  }
   .soci_conta a{
     font-size: 10px;
+  }
+  .menus{
+    height: auto;
+    width: 100%;
   }
 }
